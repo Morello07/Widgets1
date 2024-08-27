@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:widget_1/Scaffold_widget.dart';
+import 'package:widget_1/TugasAkhir.dart';
 import 'package:widget_1/dialog.dart';
 import 'package:widget_1/image_widget.dart';
 import 'package:widget_1/picture.dart';
@@ -24,7 +25,8 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home:ScaffoldWidget(),);
+      home:MyTugas(),
+         );
      
   }
 }
